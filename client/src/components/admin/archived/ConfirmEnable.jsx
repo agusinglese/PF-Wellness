@@ -16,6 +16,7 @@ import {
   disableDoctor,
   disablePatient,
 } from "../../../redux/actions";
+import { useState } from "react";
 function ConfirmEnable({ isOpen, onClose, idDoctor, aux, setAux, name, user }) {
   const dispatch = useDispatch();
   const [active, setActive] = useState(false);
