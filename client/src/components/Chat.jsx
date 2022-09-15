@@ -23,7 +23,7 @@ class KommunicateChat extends Component {
     })(document, window.kommunicate || {});
   }
   render() {
-    return <></>;
+    return <Box position="absolute" bottom="0" right="0"></Box>;
   }
   // render() {
   //   return (
