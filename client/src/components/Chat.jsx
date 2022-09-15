@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Box } from "@chakra-ui/react";
 
 class KommunicateChat extends Component {
   constructor(props) {
