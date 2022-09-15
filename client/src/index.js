@@ -22,8 +22,8 @@ export let baseURL = process.env.REACT_APP_API || "http://localhost:3001";
 ReactDOM.render(
   <MuiPickersUtilsProvider utils={DateFnsUtils} locale={esLocale}>
     <Auth0Provider
-      domain="dev-zqmpe2rk.us.auth0.com"
-      clientId="fY7Jrp1tLWX3hLk4bmger0CK1huTGPOj"
+      domain="dev-gqruv34s.us.auth0.com"
+      clientId="p2PoZBSJh4E9lQ1PidZ2M98R98L1tDTR"
       // redirectUri={window.location.origin}
       redirectUri="https://pf-wellness-iota.vercel.app/"
     >
