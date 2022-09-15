@@ -1,63 +1,36 @@
 ![ClinicaLogo](https://)
 
 # Proyecto Final - Clínica Wellness
-La propuesta de Proyecto Final consiste en la implantación de un sistema de turnos aplicado a una Clínica de Rehabilitación Física.
-Si bien usaremos como ejemplo dicha clínica, el PF se puede adaptar para todo tipo de clínica o sanatorio que requiera una solución en la organización de horarios tanto para pacientes como médicos así como también la administración de la información personal de cada uno.
-Como desglose de lo explicado anteriormente consideramos que hay dos lados importantes que deben ser diferenciados para dicha implementación: el lado del paciente y el lado médico.
 
+El proyecto consiste en el desarrollo de un sistema de turnos aplicado a una Clínica de Rehabilitación Física. El objetivo principal es facilitar y mejorar la comunincación entre la clinica, el paciente y el doctor, asi como mejorar la experiencia del paciente al momento de querer solicitar información, seleccionar el turno más conveniente, etc. De tal forma, se desarrollar diferentes funcionalidades segun el rol del usuario activo en la página.
 
-## Funcionalidades generales desde el lado del paciente
+## Funcionalidades disponibles para el paciente:
 
-● Solicita turnos.
+● Solicitar turnos, eligiendo previamente el doctor, día y hora segun la disponibilidad establecida por el doctor.
 
-● Elegir médico y su especialidad.
+● Abonar online el tratamiento seleccionado en caso de ser necesario. 
 
-● Abonar online el tratamiento que tenga que recibir.
+● El paciente tiene la posibilidad de suscribirse a la prestación ofrecida por la clinica y pagar el abono mensual, semestral o anualmente. Ésta le otorga al paciente diferentes beneficios a la hora de
 
-● Abonar un monto mensual por estar inscripto en la clínica (como una obra social).
+● Crear una cuenta, la cual le dá acceso a un perfil que contiene su información personal, los turnos solicitados y sus médicos.
 
-● Registrarse como pacientes para poder administrar su información, turnos y horarios.
+● Usar, en caso de necesitarlo, un chat bot que le permitirá evacuar dudas.
 
+## Funcionalidades disponibles para el doctor:
 
-## Funcionalidades generales desde el lado del médico
+● Administrar su agenda: 
+    - Podrá visualizar los turnos otorgados y cancelarlos en caso de requerirlo. 
+    - Podrá registrar licencias extendidas o ausencias breves, las cuales se verán reflejadas automaticamente en el turnero, lo que evitaría que un paciente tome un turno en un horario donde el doctor no se encuentra disponible.
 
-● Visualización de pacientes tiene en espera.
+● Ver el historial de los turnos asi como de los pacientes.
 
-● Administrar la agenda de pacientes para los siguientes días.
+● Definir/Modificar los días y horarios de atención.
 
-● Ver el historial médico de los pacientes.
-
-● Registrarse como médico para administrar los turnos, ver el historial del paciente y administrar su agenda.
-
-
-## Funcionalidad extra
-Intentaremos implementar un bot que el paciente pueda consultar para realizar reservas y/o contacto online (vía WhatsApp o Call Center, por ejemplo) y coordinar el turno en base al padecimiento que tenga.
+● Definir/Modificar las obras sociales con las que trabaja
 
 
 
 
-# User Stories
 
-## Lado paciente
-Como paciente:
 
-● Quiero poder seleccionar mi médico de preferencia porque es quien me inspira confianza por ser mi médico de cabecera.
 
-● Quiero poder seleccionar el día y horario del turno porque puedo adaptar mis horarios a mi agenda.
-
-● Quiero poder pagar los servicios online para no tener que llevar dinero físico.
-
-● Quiero poder saber el costo aproximado del tratamiento para poder saber si se ajusta a mi presupuesto.
-
-● Quiero poder saber si mi obra social tiene beneficios dentro de la clínica para poder recibir atención de manera preferencial.
-
-## Lado médico
-Como médico:
-
-● Quiero poder organizar mi agenda de turnos para poder organizar mis horarios y mi tiempo libre.
-
-● Quiero poder ver el historial del paciente que voy atender para poder estar al tanto de la evolución del paciente.
-
-● Quiero poder reprogramar o cancelar turnos para poder resolver urgencias.
-
-● Quiero poder ver si el paciente tiene alguna obra social que cubra el tratamiento que tiene que realizar.
